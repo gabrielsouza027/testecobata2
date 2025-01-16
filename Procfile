@@ -1,2 +1,2 @@
-web: gunicorn endpoint:app
+web: gunicorn Cobata:app
 
