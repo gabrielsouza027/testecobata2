@@ -177,7 +177,7 @@ def navigation_bar(selected_page):
         unsafe_allow_html=True,
     )
     
-    st.sidebar.image("B:/CBT-BKADM/GABRIEL/Gabriel Arquivos ADM/VSCODE/PROJETO COBATA/Arquivos/WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200 )
+    st.sidebar.image("WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200 )
     st.sidebar .title("PAINEL")  # Título vazio para não ocupar espaço extra
     for page in PAGES.keys():
         button_class = "nav-button active" if page == selected_page else "nav-button"
@@ -188,7 +188,7 @@ def navigation_bar(selected_page):
 # Função para exibir o formulário de login
 def login_page():
     # Exibir imagem no topo da página de login
-    st.image("B:/CBT-BKADM/GABRIEL/Gabriel Arquivos ADM/VSCODE/PROJETO COBATA/Arquivos/WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200)  # Coloque o caminho correto da sua imagem
+    st.image("WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200)  # Coloque o caminho correto da sua imagem
 
     st.title("Login")
     
